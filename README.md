@@ -6,7 +6,7 @@ We use [Vue.js](https://vuejs.org/) and [Vite](https://vitejs.dev/) to build the
 
 Our website is hosted on [CloudFlare](https://pages.dev).
 
-## Contributing
+# Contributing
 
 If you want to contribute to the website, you can do so by forking this repository and submitting a pull request.
 
