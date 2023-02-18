@@ -1,16 +1,14 @@
 # Ashless Website
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the source code for the [Ashless website](https://ashless.net).
 
-## Recommended IDE Setup
+We use [Vue.js](https://vuejs.org/) and [Vite](https://vitejs.dev/) to build the website.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and
-disable
-Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Our website is hosted on [CloudFlare](https://pages.dev).
 
-## Customize configuration
+## Contributing
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+If you want to contribute to the website, you can do so by forking this repository and submitting a pull request.
 
 ## Project Setup
 
