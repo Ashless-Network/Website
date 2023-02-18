@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import App from './App.vue'
 import router from './router'
 import Header from "@/components/Header.vue";
@@ -16,6 +16,6 @@ app.use(router)
 app.mount('#app')
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title
-  next()
+    document.title = to.name
+    next()
 })

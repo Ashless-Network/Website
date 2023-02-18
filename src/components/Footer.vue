@@ -3,7 +3,8 @@
 
 <template>
   <footer>
-    <p>Ashless Network &copy; 2023 - Tous droits réservés. <a href="https://github.com/Ashless-Network/Site-Internet" target="_blank">OpenSource</a></p>
+    <p>Ashless Network &copy; 2023 - Tous droits réservés. <a href="https://github.com/Ashless-Network/Site-Internet"
+                                                              target="_blank">OpenSource</a></p>
   </footer>
 </template>
 
@@ -22,6 +23,7 @@ footer {
   font-size: 1.1rem;
   height: inherit;
 }
+
 footer p {
   margin: auto;
 }

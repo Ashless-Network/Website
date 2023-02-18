@@ -3,13 +3,25 @@
 
 <template>
   <div class="bar">
-    <img src="https://cdn.ashless.net/logo/logo_transparent.png" alt="logo" />
-    <a href="/"><animated_text>Accueil</animated_text></a>
-    <a href="https://boutique.ashless.net" target="_blank" class=""><animated_text>Boutique</animated_text></a>
-    <a href="/nous-rejoindre"><animated_text>Nous rejoindre</animated_text></a>
-    <a href="https://wiki.ashless.net" target="_blank"><animated_text>Wiki</animated_text></a>
-    <a href="https://discord.ashless.net"><animated_text>Discord</animated_text></a>
-    <a href="https://status.ashless.net"><animated_text>Status</animated_text></a>
+    <img alt="logo" src="https://cdn.ashless.net/logo/logo_transparent.png"/>
+    <a href="/">
+      <animated_text>Accueil</animated_text>
+    </a>
+    <a class="" href="https://boutique.ashless.net" target="_blank">
+      <animated_text>Boutique</animated_text>
+    </a>
+    <a href="/nous-rejoindre">
+      <animated_text>Nous rejoindre</animated_text>
+    </a>
+    <a href="https://wiki.ashless.net" target="_blank">
+      <animated_text>Wiki</animated_text>
+    </a>
+    <a href="https://discord.ashless.net">
+      <animated_text>Discord</animated_text>
+    </a>
+    <a href="https://status.ashless.net">
+      <animated_text>Status</animated_text>
+    </a>
   </div>
 </template>
 
@@ -30,15 +42,18 @@
   vertical-align: middle;
   opacity: 0.9;
 }
+
 .bar img {
   float: left;
   height: 100%;
 }
+
 .bar a {
   float: left;
   margin: auto;
   color: white;
 }
+
 .bar a:hover {
   text-shadow: 0 0 10px #fff;
   color: white;
