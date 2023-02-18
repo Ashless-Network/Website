@@ -7,9 +7,10 @@ try {
   commitHash = "Unknown";
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("commitHash").innerHTML = commitHash;
-})
+window.addEventListener("click", () => {
+  const footer = document.getElementById("h2");
+  footer.innerHTML = commitHash;
+});
 
 export default {
   name: 'Footer',
@@ -21,7 +22,7 @@ export default {
 <template>
   <footer>
     <p>Ashless Network &copy; 2023 - Tous droits réservés. <a href="https://github.com/Ashless-Network/Site-Internet" target="_blank">OpenSource</a></p>
-    <div id="commitHash"></div>
+    <div id="h2"></div>
   </footer>
 </template>
 
