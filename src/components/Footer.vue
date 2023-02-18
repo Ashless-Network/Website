@@ -1,28 +1,9 @@
-<script setup lang="js">
-
-let commitHash
-try {
-  commitHash = process.env.VUE_APP_COMMIT_HASH;
-} catch (e) {
-  commitHash = "Unknown";
-}
-
-window.addEventListener("click", () => {
-  const footer = document.getElementById("h2");
-  footer.innerHTML = commitHash;
-});
-
-export default {
-  name: 'Footer',
-  components: {
-  }
-}
+<script setup>
 </script>
 
 <template>
   <footer>
     <p>Ashless Network &copy; 2023 - Tous droits réservés. <a href="https://github.com/Ashless-Network/Site-Internet" target="_blank">OpenSource</a></p>
-    <div id="h2"></div>
   </footer>
 </template>
 
