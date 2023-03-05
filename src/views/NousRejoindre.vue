@@ -38,7 +38,7 @@ export default {
       </li>
     </ul>
   </div>
-  <div class="presentation-right">
+  <div class="presentation-right-first">
     <h1>Nos liens</h1>
     <ul>
       <li><a href=https://discord.ashless.net target="_blank">Discord</a></li>
@@ -96,6 +96,19 @@ export default {
   padding: 40px;
 }
 
+.presentation-right-first {
+  margin-left: 2%;
+  float: right;
+  width: 49%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #001e3f;
+  color: white;
+  padding: 40px;
+}
+
 h1 {
   font-size: 2.4rem;
   font-weight: 700;
@@ -120,6 +133,13 @@ p, li {
   }
 
   .presentation-right {
+    margin-top: 20px;
+    margin-left: 0;
+    float: none;
+    width: 100%;
+  }
+
+  .presentation-right-first {
     margin-top: 20px;
     margin-left: 0;
     float: none;
