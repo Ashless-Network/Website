@@ -27,4 +27,10 @@ footer {
 footer p {
   margin: auto;
 }
+
+@media screen and (max-width: 800px) {
+  * {
+    font-size: 0.8rem;
+  }
+}
 </style>

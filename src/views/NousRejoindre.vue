@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>En développement</h1>
+
   </div>
 </template>
 
