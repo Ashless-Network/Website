@@ -7,13 +7,17 @@
     <p>C'est un serveur minecraft network orienté RPG. Nous sommes actuellement en phase de développement.</p>
     <p>Lis les actualités pour plus d'informations et connaitre le fil des évènement.</p>
     <p>Rejoins le <a href="https://discord.ashless.net" target="_blank">discord</a> pour être tenu au courant.</p>
+    <br>
+    <important>Le site est actuellement en développement, le contenu, l'agencement, le thème n'est pas définitif ni
+      exhaustif.
+    </important>
   </div>
   <br><br>
   <div class="presentation">
     <h1>Actualités</h1>
     <div class="news">
       <date>05/03/2023 19:30</date>
-      <h1>On recrute !</h1>
+      <h2>On recrute !</h2>
       <p>Nous recherchons actuellement des développeurs, buildeurs, modérateurs et/ou scripteurs !</p>
       <p>En tant que développeur, vous assurerez la résolution de bug, l'ajout de fonctionnalités avec l'api
         spigot/velocity ou encore en TS/JS pour des api. Il est important d'avoir
@@ -22,10 +26,9 @@
       <p>En tant que modérateur, vous devrez bannir/mute les personnes ne respectant pas le règlement.</p>
       <p>Vous pouvez cumuler maximum 2 postes, sauf si vous êtes de l'administration.</p>
     </div>
-    <br><br>
     <div class="news">
       <date>28/02/2023 19:55</date>
-      <h1>Ashless mais keskesé ?</h1>
+      <h2>Ashless mais keskesé ?</h2>
       <p>Nous sommes actuellement en train de commencer le développement du serveur et son fonctionnement, on vous tient
         au courant !</p>
     </div>
@@ -57,17 +60,6 @@ date {
   padding: 40px;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-p {
-  transform: translateX(15px);
-  font-size: 1.2rem;
-}
-
 .news {
   display: flex;
   flex-direction: column;
@@ -76,6 +68,29 @@ p {
   background-color: #0b2a52;
   border-radius: 20px;
   padding: 30px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+important {
+  color: red;
+  font-size: 1.6rem;
+}
+
+p {
+  transform: translateX(15px);
+  font-size: 1.6rem;
 }
 
 @media (max-width: 800px) {
