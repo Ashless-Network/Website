@@ -18,7 +18,7 @@ export default {
   <div class="presentation-left">
     <h1>Rejoignez-nous !</h1>
     <ul>
-      <li>Lancez votre minecraft en version crack ou premium 1.19.3, Fabric avec Sodium est recommandé.</li>
+      <li>Lancez votre minecraft en version crack ou premium 1.19.3, Fabric avec Sodium est recommandé</li>
       <li>
         <button class="button" @click="copy">Copiez l'addresse du serveur</button>
       </li>
@@ -50,19 +50,20 @@ export default {
     <ul>
       <li>Regardez le statut du serveur sur <a href="https://status.ashless.net" target="_blank">la page de statut et
         d'incidents</a></li>
-      <li>Faites un ticket sur discord si votre problème persiste après plusieurs tentatives.</li>
+      <li>Faites un ticket sur discord si votre problème persiste après plusieurs tentatives</li>
     </ul>
   </div>
 </template>
 
 <style scoped>
+
 .button {
   background-color: #0e01af;
   color: white;
   border-radius: 16px;
   padding: 12px;
   border: none;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 .button:hover {
@@ -71,8 +72,9 @@ export default {
 }
 
 .presentation-left {
+  position: relative;
   float: left;
-  width: 49%;
+  width: 63%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -86,7 +88,7 @@ export default {
   margin-top: 20px;
   margin-left: 2%;
   float: right;
-  width: 49%;
+  width: 35%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -99,7 +101,7 @@ export default {
 .presentation-right-first {
   margin-left: 2%;
   float: right;
-  width: 49%;
+  width: 35%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -110,23 +112,37 @@ export default {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 p, li {
   transform: translateX(15px);
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p, li {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1000px) {
   .presentation-left {
     float: none;
     width: 100%;

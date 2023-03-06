@@ -40,10 +40,11 @@
   font-size: 1.5rem;
   height: inherit;
   vertical-align: middle;
-  opacity: 0.9;
+  opacity: 0.99;
 }
 
 .bar img {
+  margin-left: 20px;
   float: left;
   height: 100%;
 }
