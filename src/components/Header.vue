@@ -10,6 +10,9 @@
     <a href="https://boutique.ashless.net" target="_blank">
       <animated_text>Boutique</animated_text>
     </a>
+    <a href="/reglement">
+      <animated_text>Règlement</animated_text>
+    </a>
     <a href="/nous-rejoindre">
       <animated_text>Nous rejoindre</animated_text>
     </a>
@@ -19,8 +22,8 @@
     <a href="https://discord.ashless.net">
       <animated_text>Discord</animated_text>
     </a>
-    <a href="https://status.ashless.net">
-      <animated_text>Status</animated_text>
+    <a href="https://statut.ashless.net">
+      <animated_text>Statut</animated_text>
     </a>
   </div>
 </template>
@@ -91,7 +94,7 @@ animated_text:hover:after {
 @media screen and (max-width: 800px) {
   .bar {
     height: 80px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 </style>

@@ -17,6 +17,11 @@ const router = createRouter({
             component: () => import('../views/NousRejoindre.vue'),
         },
         {
+          path: '/reglement',
+            name: basicName.replace("%NAME%", "Règlement"),
+            component: () => import('../views/Reglement.vue'),
+        },
+        {
             path: '/:pathMatch(.*)*',
             name: basicName.replace("%NAME%", "404"),
             redirect: '/'
