@@ -19,10 +19,10 @@
     <a href="https://wiki.ashless.net" target="_blank">
       <animated_text>Wiki</animated_text>
     </a>
-    <a href="https://discord.ashless.net">
+    <a href="https://discord.ashless.net" target="_blank">
       <animated_text>Discord</animated_text>
     </a>
-    <a href="https://statut.ashless.net">
+    <a href="https://statut.ashless.net" target="_blank">
       <animated_text>Statut</animated_text>
     </a>
   </div>
