@@ -1,5 +1,5 @@
 <template>
-  <p>En développement</p>
+  <p>En développement & rédaction</p>
 </template>
 
 <style scoped>

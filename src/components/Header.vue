@@ -74,6 +74,7 @@ animated_text {
 }
 
 animated_text:after {
+  z-index: -1;
   content: "";
   position: absolute;
   width: 100%;
