@@ -10,7 +10,7 @@
     <a href="https://boutique.ashless.net" target="_blank">
       <animated_text>Boutique</animated_text>
     </a>
-    <a href="/reglement">
+    <a href="https://reglement.ashless.net" target="_blank">
       <animated_text>Règlement</animated_text>
     </a>
     <a href="/nous-rejoindre">
